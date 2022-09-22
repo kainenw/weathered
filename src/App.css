@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600&display=swap');
+
+:root {
+    /* Color Theme Swatches in HSLA */
+    --blue2: #27548F;
+    --orange: #DA7A6F;
+    --blue1: #518DDB;
+    --green1: #BCDB3B;
+    --green2: #768F0D;
+    background-color: rgba(188, 219, 59, 0.5);
+}
+
+* {
+    background-color: transparent;
+    font-family: noto sans;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: noto sans;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.day {
+    background-color: rgba(81, 141, 219, 0.5);;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+#results{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    background-color: var(--blue1);
+    max-width: 30rem;
+    padding: 0.25em;
+    border-radius: 20px;
+    border: 2px solid var(--green2);
+    color: white;
+    min-width: 10rem;
+    max-width: 20rem;
+    margin: 1rem auto;
+    text-decoration: none;
+    list-style: none;
+}
+
+#button {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+input,
+select,
+button {
+    background-color: var(--orange);
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #27548F; }
+.My-Color-Theme-2-hex { color: #DA7A6F; }
+.My-Color-Theme-3-hex { color: #518DDB; }
+.My-Color-Theme-4-hex { color: #BCDB3B; }
+.My-Color-Theme-5-hex { color: #768F0D; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(39, 84, 143, 1); }
+.My-Color-Theme-2-rgba { color: rgba(218, 122, 111, 1); }
+.My-Color-Theme-3-rgba { color: rgba(81, 141, 219, 1); }
+.My-Color-Theme-4-rgba { color: rgba(188, 219, 59, 1); }
+.My-Color-Theme-5-rgba { color: rgba(118, 143, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(214, 57, 35, 1); }
+.My-Color-Theme-2-hsla { color: hsla(6, 59, 64, 1); }
+.My-Color-Theme-3-hsla { color: hsla(213, 65, 58, 1); }
+.My-Color-Theme-4-hsla { color: hsla(71, 68, 54, 1); }
+.My-Color-Theme-5-hsla { color: hsla(71, 83, 30, 1); }
