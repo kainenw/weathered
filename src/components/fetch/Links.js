@@ -15,7 +15,7 @@ export const Links = (props) => {
                 .then(response => response.json())
                 .then(json => json.properties.forecastHourly)
                 .then(parsed => setLink(parsed));
-    }, []);
+    }, [coords]);
 
     return (
         <div>

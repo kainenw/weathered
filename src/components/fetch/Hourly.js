@@ -10,7 +10,7 @@ export const Hourly = (props) => {
             .then(response => response.json())
             .then(jsonResponse => jsonResponse.properties.periods)
             .then(hourly => setHourly(hourly))
-    }, [])
+    }, [props])
 
     return (
         <div>

@@ -1,6 +1,6 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import { Coord } from "./fetch/Coord.js";
-import { Route, Link } from "react-router-dom"
+//import { Route, Link } from "react-router-dom"
 import { Loading } from "./Loading.js";
 
 export function Search (props) {

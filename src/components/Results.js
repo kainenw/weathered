@@ -1,6 +1,6 @@
 //import { testFormat } from "./fetch/getHourly.js";
 import { React, useEffect, useState } from 'react';
-import { testData } from './testData'
+//import { testData } from './testData'
 import { Day } from './Day'
 
 export function Results (props) {
@@ -28,12 +28,6 @@ export function Results (props) {
         total[hour.date].push(hour);
         return total;
     }
-
-    const removeExcessArrays = (arr) => {
-        if(arr.length > 3){
-            return arr;
-        }
-    }
     
     const pushToDayComponent = (result, i) => {
         return <Day key={i} hourly={result} />
@@ -48,7 +42,7 @@ export function Results (props) {
         props.loaded();
         setResults(sevenDayResults);
         
-    }, [])
+    }, [props])
 
     
     return(
